@@ -12,4 +12,4 @@ To run the visualizer, execute:
 ```
 
 The project can be adapted to paint various geometric shapes. For example, to generate an avatar:
-![avatar of letter 'A'](https://drive.google.com/uc?export=view&id=1vCShx-E37tbqKWA2E12tUarrZpdGXL00)
+![avatar of letter 'A'](avatar.bmp)
