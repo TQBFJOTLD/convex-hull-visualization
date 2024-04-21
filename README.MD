@@ -1,4 +1,4 @@
-This project provides tools for visualizing convex hulls calculated using Andrew's monotone chain algorithm. It features a scan-line filling algorithm to effectively render polygons generated from user-defined points. The project can be adapted to paint various geometric shapes.
+This project provides tools for visualizing convex hulls calculated using Andrew's monotone chain algorithm. It features a scan-line filling algorithm to effectively render polygons generated from user-defined points. 
 
 **Installation**  
    ```bash
@@ -10,3 +10,6 @@ To run the visualizer, execute:
 ```bash
 ./test
 ```
+
+The project can be adapted to paint various geometric shapes. For example, to generate an avatar:
+![avatar of letter 'A'](https://drive.google.com/uc?export=view&id=1vCShx-E37tbqKWA2E12tUarrZpdGXL00)
