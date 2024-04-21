@@ -65,17 +65,10 @@ void drawPoints(bitmap& bmp, const std::vector<Point>& points, const pixel& colo
     }
 }
 
-std::string getCurrentWorkingDir() {
-    char buff[FILENAME_MAX];
-    getcwd(buff, FILENAME_MAX);
-    std::string current_working_dir(buff);
-    return current_working_dir;
-}
-
 int main() {
-	int width = 400;
+    int width = 400;
     int height = 400;
-    std::string filename = getCurrentWorkingDir() + "/downloads/convex_new/output.bmp";
+    std::string filename = "output.bmp";
     EdgeTable et(width, height, filename);      
 
     bitmap& bmp = et.image;
