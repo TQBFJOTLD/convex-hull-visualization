@@ -21,8 +21,6 @@ bool bitmap::write() {
     info_header.width = width;
     info_header.height = height;
 
-    // Open the file where we will write the bitmap
-	// filename = "/Users/xiupingxue/Downloads/convex_new/output.bmp";
     std::ofstream ofile(filename, std::ios::out | std::ios::binary);
 
     if (!ofile) {
